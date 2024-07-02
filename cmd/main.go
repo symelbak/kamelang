@@ -8,11 +8,11 @@ import (
 )
 
 func main() {
-	user, err := user.Current()
+	SysUser, err := user.Current()
 	if err != nil {
 		panic(err)
 	}
-	fmt.Printf("Hello Kamel: %s\n Welcome to Kamelang!\n", user.Username)
+	fmt.Printf("Hello Kamel: %s\n Welcome to Kamelang!\n", SysUser.Username)
 	repl.Start(os.Stdin, os.Stdout)
 
 }
