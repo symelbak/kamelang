@@ -7,6 +7,7 @@ type Token struct {
 	Literal string
 }
 
+// TOKEN TYPES
 const (
 	ILLEGAL = "ILLEGAL"
 	EOF     = "EOF"
