@@ -1,0 +1,6 @@
+*.txt
+*.pdf
+.idea/
+.gitignore
+.git/
+*.md

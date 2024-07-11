@@ -102,6 +102,12 @@
     >> fibonacci(10); 
 ```
 
+## How to run the REPL:
+```shell
+    docker pull symelbak/kamelang
+    docker run -it symelbak/kamelang
+```
+
 ## Future Features:
 - [ ] Arrays
 - [ ] Strings
