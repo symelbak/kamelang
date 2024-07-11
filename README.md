@@ -22,6 +22,20 @@
 - Internal Object system
 - Evaluator
 
+## REPL
+```shell
+  Hello Kamel: Username
+  Welcome to Kamelang!
+  >> let a = 10;
+  >> let b = 20;
+  >> a + b;
+  30
+  >> let add = fn(a, b) { a + b; };
+  >> add(1, 2);
+  3
+  ...
+```
+
 ## Syntax:
 
 ### Variable Declaration and Assignment
@@ -92,4 +106,6 @@
 ## Future Features:
 - [ ] Arrays
 - [ ] Strings
-- [ ] Convert the interpreter to a compiler
+- [ ] Convert the interpreter to a compiler\
+\
+And much more...
