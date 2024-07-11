@@ -14,5 +14,4 @@ func main() {
 	}
 	fmt.Printf("Hello Kamel: %s\n Welcome to Kamelang!\n", SysUser.Username)
 	repl.Start(os.Stdin, os.Stdout)
-
 }
