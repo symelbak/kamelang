@@ -40,67 +40,66 @@
 
 ### Variable Declaration and Assignment
 ```js
-    let a = 10; 
-    let a = true; 
+    >> let a = 10;
+    >> let a = true; 
 ``` 
 
 ### Arithmetic Operations
 ```js
-    let a = 10 + 20; 
-    let b = 300 - 20 / 2 * 3; 
+    >> let a = 10 + 20;
+    >> let b = 300 - 20 / 2 * 3; 
 ```
 
 ### Logical Operations
 ```js
-    true == false; 
-    true != false; 
-    1 < 2; 
-    1 > 2; 
-    (1 < 2) == true; 
+    >> true == false;
+    >> true != false;
+    >> 1 < 2;
+    >> 1 > 2;
+    >> (1 < 2) == true; 
 ```
 
 ### If Statement
 ```js
-    if (1 < 2) { return true; } else { return false; }
-    if (1 < 2) { 10 } else { 20 }
-    if (10 > 1) { if (10 > 1) { return 10; } return 1; }
+    >> if (1 < 2) { return true; } else { return false; }
+    >> if (1 < 2) { 10 } else { 20 }
+    >> if (10 > 1) { if (10 > 1) { return 10; } return 1; }
 ```
 
 ### Function Declaration and Call
 ```js
-    let add = fn(a, b) { return a + b; }; 
-    add(1, 2); 
+    >> let add = fn(a, b) { return a + b; };
+    >> add(1, 2); 
 ```
 
 ### Higher Order Function
 ```js
-    let add = fn(a, b) { return a + b; }; 
-    let apply = fn(a, b, fn) { return fn(a, b); }; 
-    apply(1, 2, add); 
+    >> let add = fn(a, b) { return a + b; };
+    >> let apply = fn(a, b, fn) { return fn(a, b); };
+    >> apply(1, 2, add); 
 ```
 
 ### Return Statement
 ```js
-    return 10; 
-    return true; 
+    >> return 10;
+    >> return true; 
 ```
 
 ### Implicit Return
 ```js
-    let add = fn(a, b) { a + b; }; 
-    add(1, 2); 
-```
+    >> let add = fn(a, b) { a + b; };
+    >> add(1, 2);
+```    
 
 ### Recursion
 ```js
-    let fibonacci = fn(x) { 
+    >> let fibonacci = fn(x) { 
         if (x == 0) { return 0; } 
         else { 
             if (x == 1) { return 1; } 
-            else { return fibonacci(x - 1) + fibonacci(x - 2); } 
-        } 
-    }; 
-    fibonacci(10); 
+            else { return fibonacci(x - 1) + fibonacci(x - 2); }} 
+        }; 
+    >> fibonacci(10); 
 ```
 
 ## Future Features:
