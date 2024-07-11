@@ -39,19 +39,19 @@
 ## Syntax:
 
 ### Variable Declaration and Assignment
-```js
+```shell
     >> let a = 10;
     >> let a = true; 
 ``` 
 
 ### Arithmetic Operations
-```js
+```shell
     >> let a = 10 + 20;
     >> let b = 300 - 20 / 2 * 3; 
 ```
 
 ### Logical Operations
-```js
+```shell
     >> true == false;
     >> true != false;
     >> 1 < 2;
@@ -60,39 +60,39 @@
 ```
 
 ### If Statement
-```js
+```shell
     >> if (1 < 2) { return true; } else { return false; }
     >> if (1 < 2) { 10 } else { 20 }
     >> if (10 > 1) { if (10 > 1) { return 10; } return 1; }
 ```
 
 ### Function Declaration and Call
-```js
+```shell
     >> let add = fn(a, b) { return a + b; };
     >> add(1, 2); 
 ```
 
 ### Higher Order Function
-```js
+```shell
     >> let add = fn(a, b) { return a + b; };
     >> let apply = fn(a, b, fn) { return fn(a, b); };
     >> apply(1, 2, add); 
 ```
 
 ### Return Statement
-```js
+```shell
     >> return 10;
     >> return true; 
 ```
 
 ### Implicit Return
-```js
+```shell
     >> let add = fn(a, b) { a + b; };
     >> add(1, 2);
 ```    
 
 ### Recursion
-```js
+```shell
     >> let fibonacci = fn(x) { 
         if (x == 0) { return 0; } 
         else { 
