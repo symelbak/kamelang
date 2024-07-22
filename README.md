@@ -13,6 +13,45 @@
 - [x] Implicit Return
 - [x] Recursion
 
+## Data Types:
+- [x] Integer
+- [x] Boolean
+- [x] String
+- [x] Array
+- [x] Hash
+
+## Built-in Functions:
+- [x] len
+- [x] first
+- [x] last
+- [x] rest
+- [x] push
+- [x] puts
+
+### len: 
+Returns the length of an array.\
+Syntax: ``` len(array) ```
+
+### first:
+Returns the first element of an array.\
+Syntax: ``` first(array) ```
+
+### last:
+Returns the last element of an array.\
+Syntax: ``` last(array) ```
+
+### rest:
+Returns all the elements of an array except the first element.\
+Syntax: ``` rest(array) ```
+
+### push:
+Adds an element to the end of an array.\
+Syntax: ``` push(array, element) ```
+
+### puts:
+Prints the value of an expression and a null at the end\
+Syntax: ``` puts(expression) ```
+
 ### Kamel is tokenized and parsed in a REPL. The REPL is a simple command line interface that reads input, evaluates it, prints the result, and loops until the user exits.
 
 ## The Interpreter is divided into 5 main parts:
@@ -42,6 +81,9 @@
 ```shell
     >> let a = 10;
     >> let a = true; 
+    >> let a = "Hello Kamel!";
+    >> let a = [1, 2, 3, 4];
+    >> let a = {"name": "Kamel", "age": 20};
 ``` 
 
 ### Arithmetic Operations
@@ -57,6 +99,16 @@
     >> 1 < 2;
     >> 1 > 2;
     >> (1 < 2) == true; 
+```
+
+### Indexing Arrays and Hashes
+```shell
+    >> let a = [1, 2, 3, 4];
+    >> a[0];
+    1
+    >> let b = {"name": "Kamel", "age": 20};
+    >> b["name"];
+    Kamel
 ```
 
 ### If Statement
@@ -102,15 +154,37 @@
     >> fibonacci(10); 
 ```
 
+### String Concatenation
+```shell
+    >> let a = "Hello" + " " + "Kamel!";
+    >> a;
+    Hello Kamel!
+```
+
+### Built-in Functions
+```shell
+    >> let a = [1, 2, 3, 4];
+    >> len(a);
+    4
+    >> first(a);
+    1
+    >> last(a);
+    4
+    >> rest(a);
+    [2, 3, 4]
+    >> push(a, 5);
+    [1, 2, 3, 4, 5]
+    >> puts("Hello from Kamelang!", "Hello World!");
+    Hello from Kamelang!
+    Hello World!
+    null
+```
+
 ## How to run the REPL:
 ```shell
     docker pull symelbak/kamelang
     docker run -it symelbak/kamelang
 ```
 
-## Future Features:
-- [ ] Arrays
-- [ ] Strings
+## Future Plans:
 - [ ] Convert the interpreter to a compiler\
-\
-And much more...
