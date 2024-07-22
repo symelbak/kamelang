@@ -3,5 +3,4 @@
 .idea/
 .gitignore
 .git/
-*.md
 **/**/*_test.go
