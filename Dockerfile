@@ -13,4 +13,3 @@ WORKDIR /app/cmd
 RUN go build -o main .
 
 CMD ["./main"]
-

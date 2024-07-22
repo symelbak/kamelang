@@ -182,9 +182,8 @@ Syntax: ``` puts(expression) ```
 
 ## How to run the REPL:
 ```shell
-    docker pull symelbak/kamelang
     docker run -it symelbak/kamelang
 ```
 
 ## Future Plans:
-- [ ] Convert the interpreter to a compiler\
+- [ ] Convert the interpreter to a compiler
